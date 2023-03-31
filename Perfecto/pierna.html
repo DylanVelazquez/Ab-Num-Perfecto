@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/patas.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   let lol = parseInt(prompt("Ingresa numero flaco"));
+   let papu = [lol];
+
+   for(let i=0;i<papu.length;i++){
+        if(EsPerfecto(papu[i])){
+            document.write(papu[i], ' Es Perfecto')
+    }
+        else{
+            document.write(papu[i], ' No es perfecto')
+    }
+   }
+   EsPerfecto(n);
+    </script>
+    
+</body>
+</html>
